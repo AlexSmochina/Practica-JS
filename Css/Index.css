@@ -1,7 +1,8 @@
 h1{
     margin-top: 10vh;
     color: blue;
-   text-align: center;
+    text-align: center;
+    font-size: 45px;
 }
 #contenedor{
     display: flex;
@@ -31,14 +32,38 @@ p{
 }
 h2{
     color: dodgerblue;
-    margin-left: 20px;
+    font-size: 38px;
+}
+.fieldset{
+    border: dodgerblue 2px solid;
 }
 .numeros{
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    border-bottom: solid 1px 
+    border-bottom: solid 2px dodgerblue;
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
 }
-.submit{
-    
+.enviar{
+    height: 30px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5%;
+    color: aliceblue;
+    font-size: 25px;
+}
+.intentos{
+    margin-top: 20px;
+    background-color: crimson;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 25px;
+
 }
