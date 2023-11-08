@@ -66,19 +66,18 @@ h2{
     color: aliceblue;
     font-size: 25px;
 }
-.numerosIntroducidos{
+.cuadroNumeros{
     display: flex;
     text-align: center;
     margin: 20px;
 }
-.cuadroNumeros{
+.numerosIntroducidos{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     border-radius: 15%;
     height: 8vh;
-    width: 8vh;
-    background-color: dodgerblue;
-    }
-    
+    width: 12vh;
+    background-color: hsla(0, 0%, 37%, 0.337);
+}
