@@ -24,7 +24,7 @@ function enviar(){
     for(let i=0; i < 5; i++){
         var celda = newRow.insertCelda(i);
         celda.innerHTML = "$numeros";
-
+        
     }
 }
 var botonAgregarFila = document.getElementsByClassName('enviar');
