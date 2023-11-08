@@ -6,26 +6,12 @@ function numeroAleatorioDeCincoDigitosConCeros() {
   var numeroRandom = numeroAleatorioDeCincoDigitosConCeros();
   console.log(numeroRandom);
   
+  var digitos = numeroRandom.split('').map(Number);
+
+console.log(digitos); // Esto mostrará un array con cada dígito del número
 
 function enviar(){
 
-    let numeros = document.getElementById("numero").value
-    if (numeros.length != 5){
-        window.alert("El numero esta fuera de rango");
-    }
-    else{
-        let numerosSeparados = numero.split("");
-    }
-
-    var tabla = document.getElementsByName("div")
-    var newRow = tabla.insertRow(tabla.rows.length)
-
-
-    for(let i=0; i < 5; i++){
-        var celda = newRow.insertCelda(i);
-        celda.innerHTML = "$numeros";
-        
-    }
+    valor
+    
 }
-var botonAgregarFila = document.getElementsByClassName('enviar');
-botonAgregarFila.addEventListener('click', enviar);
