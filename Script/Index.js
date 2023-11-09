@@ -12,6 +12,16 @@ console.log(digitos); // Esto mostrará un array con cada dígito del número
 
 function enviar(){
 
-    valor
-    
+  let Numero = document.getElementById("numero");
+  let valor = Numero.value;
+  valor.value = ""
+  
+  if (/^\d{5}$/.test(valor)) {
+    let numeroSeparado = valor.split('').map(Number);
+    console.log(numeroSeparado)
+  } else {
+    alert("El valor debe contener exactamente 5 cifras.");
+  }
+
+  
 }
