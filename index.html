@@ -4,27 +4,16 @@
         <meta charset="UTF-8">
         <title>Practica JS</title>
         <link rel="stylesheet" href="/Css/Index.css">
-        <script src="/Script/Index.js"></script>
     </head>
     <body>
         <div id="contenedor"> 
             <h1>Adivina el número secreto</h1>
             <div class="numeroOculto">
-                <div class="columnas">
-                    <p>*</p>
-                </div>
-                <div class="columnas">
-                    <p>*</p>
-                </div>
-                <div class="columnas">
-                    <p>*</p>
-                </div>
-                <div class="columnas">
-                    <p>*</p>
-                </div>
-                <div class="columnas">
-                    <p>*</p>
-                </div>
+                <div class="columnas">*</div>
+                <div class="columnas">*</div>
+                <div class="columnas">*</div>
+                <div class="columnas">*</div>
+                <div class="columnas">*</div>
             </div>
             <div class="fieldset">
                 <div class="form">
@@ -33,11 +22,10 @@
                     <button id="enviar" onclick="enviar()">Enviar</button>
                 </div>
             </div>
-            <div class="intentos">
-                <p>Primer intento, suerte!</p>
-            </div>
+            <div class="intentos">Tienes 5 intentos</div>
             <div class="cuadroNumeros" id="cuadroNumeros">
             </div>
         </div>
+        <script src="/Script/Index.js"></script>
     </body>
 </html>
