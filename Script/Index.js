@@ -41,5 +41,7 @@ function enviar() {
         } else {
             newDiv.style.backgroundColor = "grey";
         }
+
+        
     }
 }
