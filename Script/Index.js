@@ -51,6 +51,7 @@ function enviar() {
         console.log(numeroSeparado);
     } else {
         alert("El valor debe contener exactamente 5 cifras.");
+        intentos++
         return; // Salir de la función si la validación no pasa
     }
 
